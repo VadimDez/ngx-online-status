@@ -1,0 +1,28 @@
+{
+  "name": "ngx-online-status",
+  "version": "0.0.0",
+  "description": "Online status events for angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimDez/ngx-online-status.git"
+  },
+  "keywords": [
+    "angular2",
+    "angular4",
+    "angular2+",
+    "angular5",
+    "angular",
+    "online",
+    "status"
+  ],
+  "author": "Vadym Yatsyuk <vadym.yatsyuk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VadimDez/ngx-online-status/issues"
+  },
+  "homepage": "https://github.com/VadimDez/ngx-online-status#readme"
+}
