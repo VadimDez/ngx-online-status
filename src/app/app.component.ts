@@ -9,8 +9,8 @@ import { OnlineStatusService, OnlineStatusType } from './modules/online-status';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
   status: OnlineStatusType;
+  OnlineStatusType = OnlineStatusType;
 
   constructor(private onlineStatusService: OnlineStatusService) {
     this.onlineStatusService.status.subscribe((status: OnlineStatusType) => {
