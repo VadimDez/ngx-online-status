@@ -17,7 +17,7 @@ npm install ngx-online-status --save
 
 * Import `OnlineStatusModule` to your module
 
-```ts
+```js
 @NgModule({
   declarations: [
     // ...
@@ -31,7 +31,7 @@ npm install ngx-online-status --save
 
 * Inject `OnlineStatusService` and use it:
 
-```ts
+```js
 //...
 export class AppComponent {
   status: OnlineStatusType;
