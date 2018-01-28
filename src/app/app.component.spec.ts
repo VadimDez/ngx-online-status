@@ -1,11 +1,15 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { OnlineStatusModule } from './modules/online-status';
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [
+        OnlineStatusModule
+      ],
       declarations: [
         AppComponent
-      ],
+      ]
     }).compileComponents();
   }));
   it('should create the app', async(() => {
