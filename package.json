@@ -1,6 +1,6 @@
 {
   "name": "ngx-online-status",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Online status events for angular",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "packagr": "ng-packagr -p ng-package.json"
+    "packagr": "ng-packagr -p ng-package.json",
+    "docs": "ng build --prod --output-path docs --base-href ngx-online-status && cp ./docs/index.html ./docs/404.html"
   },
   "private": false,
   "repository": {
