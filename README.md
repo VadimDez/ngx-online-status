@@ -29,7 +29,9 @@ npm install ngx-online-status --save
   imports: [
     OnlineStatusModule
   ],
-  providers: []
+  providers: [
+    //...
+  ]
 })
 ```
 
@@ -37,6 +39,7 @@ npm install ngx-online-status --save
 
 ```typescript
 //...
+
 export class AppComponent {
   status: OnlineStatusType;
 
