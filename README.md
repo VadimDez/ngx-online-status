@@ -2,7 +2,7 @@
 
 > Detect online/offline state
 
-Angular Module to track online and offline state
+Angular 5+ Module to track online and offline state
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/3748453/36118473-719a6dd6-103d-11e8-8e36-dbdb910dfc9a.gif">
