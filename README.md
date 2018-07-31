@@ -52,6 +52,12 @@ export class AppComponent {
 }
 ``` 
 
+##### OnlineStatusType
+
+```OnlineStatusType.OFFLINE``` equals to `0`
+
+```OnlineStatusType.ONLINE``` equals to `1`
+
 ## License
 
 [MIT](https://tldrlegal.com/license/mit-license) © [Vadym Yatsyuk](https://github.com/vadimdez)
