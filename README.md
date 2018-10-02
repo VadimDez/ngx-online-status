@@ -38,7 +38,7 @@ npm install ngx-online-status --save
 * Inject `OnlineStatusService` and use it:
 
 ```typescript
-import { OnlineStatusService } from 'ngx-online-status';
+import { OnlineStatusService, OnlineStatusType } from 'ngx-online-status';
 
 export class AppComponent {
   status: OnlineStatusType;
