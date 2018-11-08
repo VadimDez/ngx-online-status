@@ -1,4 +1,5 @@
 # ngx-online-status
+[![Build Status](https://travis-ci.org/VadimDez/ngx-online-status.svg?branch=master)](https://travis-ci.org/VadimDez/ngx-online-status)
 
 > Detect online/offline state
 
