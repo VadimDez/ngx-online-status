@@ -1,5 +1,5 @@
 <div class="status" [class.offline]="status === OnlineStatusType.OFFLINE">
-  {{ OnlineStatusType.OFFLINE ? 'Offline' : 'Online' }}
+  {{ status === OnlineStatusType.OFFLINE ? 'Offline' : 'Online' }}
 </div>
 
 <div style="text-align:center">
