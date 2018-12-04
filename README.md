@@ -23,6 +23,8 @@ npm install ngx-online-status --save
 * Import `OnlineStatusModule` to your module
 
 ```typescript
+import { OnlineStatusModule } from 'ngx-online-status';
+
 @NgModule({
   declarations: [
     // ...
