@@ -12,6 +12,10 @@ Angular 5+ Module to track online and offline state
 ### Demo
 [https://vadimdez.github.io/ngx-online-status/](https://vadimdez.github.io/ngx-online-status/)
 
+or stackblitz code/demo
+
+[https://stackblitz.com/edit/ngx-online-status](https://stackblitz.com/edit/ngx-online-status)
+
 ## Install
 
 ```
