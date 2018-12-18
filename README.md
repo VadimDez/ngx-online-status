@@ -1,5 +1,5 @@
 # ngx-online-status
-[![Build Status](https://travis-ci.org/VadimDez/ngx-online-status.svg?branch=master)](https://travis-ci.org/VadimDez/ngx-online-status)
+[![Build Status](https://travis-ci.org/VadimDez/ngx-online-status.svg?branch=master)](https://travis-ci.org/VadimDez/ngx-online-status) ![https://www.paypal.me/vadimdez](https://img.shields.io/badge/paypal-donate-yellow.svg)
 
 > Detect online/offline state
 
