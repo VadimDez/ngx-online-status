@@ -1,6 +1,6 @@
 {
   "name": "ngx-online-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Online status events for angular",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/VadimDez/ngx-online-status#readme",
   "peerDependencies": {
-    "@angular/core": "^5.2.0"
+    "@angular/core": ">=5.2.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.800.0",
