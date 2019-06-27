@@ -1,12 +1,11 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
-
-import { OnlineStatusService, OnlineStatusType } from './modules/online-status';
+import { OnlineStatusService, OnlineStatusType } from "./modules/online-status";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.scss"]
 })
 export class AppComponent {
   status: OnlineStatusType;
