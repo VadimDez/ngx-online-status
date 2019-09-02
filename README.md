@@ -24,7 +24,7 @@ npm install ngx-online-status --save
 
 ## Usage
 
-* Import `OnlineStatusModule` to your module
+1. Import `OnlineStatusModule` to your module
 
 ```typescript
 import { OnlineStatusModule } from 'ngx-online-status';
@@ -42,7 +42,7 @@ import { OnlineStatusModule } from 'ngx-online-status';
 })
 ```
 
-* Inject `OnlineStatusService` and use it:
+2. Inject `OnlineStatusService` and use it:
 
 ```typescript
 import { OnlineStatusService, OnlineStatusType } from 'ngx-online-status';
