@@ -6,14 +6,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --configuration production",
     "test": "ng test --watch=false",
     "test:ci": "ng test --watch=false --browsers=ChromeHeadlessCustom",
     "test:watch": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p package.json",
-    "docs": "ng build --prod --output-path docs --base-href ngx-online-status && cp ./docs/index.html ./docs/404.html"
+    "docs": "ng build --configuration production --output-path docs --base-href ngx-online-status && cp ./docs/index.html ./docs/404.html"
   },
   "private": false,
   "repository": {
