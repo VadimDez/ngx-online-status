@@ -46,4 +46,16 @@ describe('OnlineStatusService', () => {
 
     fakeEvent(OnlineStatusService.EVENT_TYPE_OFFLINE);
   })));
+
+  describe('getStatus()', () => {
+    it('should return online status', async(inject([OnlineStatusService],(service: OnlineStatusService) => {
+      spyOnProperty(navigator, 'onLine').and.returnValue(true);
+      expect(service.getStatus()).toEqual(OnlineStatusType.ONLINE);
+    })));
+
+    it('should return offline status', async(inject([OnlineStatusService],(service: OnlineStatusService) => {
+      spyOnProperty(navigator, 'onLine').and.returnValue(false);
+      expect(service.getStatus()).toEqual(OnlineStatusType.OFFLINE);
+    })));
+  })
 });

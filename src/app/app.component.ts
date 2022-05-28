@@ -8,7 +8,7 @@ import { OnlineStatusService, OnlineStatusType } from "./modules/online-status";
   styleUrls: ["./app.component.scss"]
 })
 export class AppComponent {
-  status: OnlineStatusType = OnlineStatusType.ONLINE;
+  status: OnlineStatusType = this.onlineStatusService.getStatus();
   OnlineStatusType = OnlineStatusType;
 
   constructor(private onlineStatusService: OnlineStatusService) {
