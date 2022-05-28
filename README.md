@@ -1,4 +1,5 @@
 # ngx-online-status
+
 ![Downloads](https://img.shields.io/npm/dm/ngx-online-status.svg?style=flat)
 [![Build Status](https://travis-ci.org/VadimDez/ngx-online-status.svg?branch=master)](https://travis-ci.org/VadimDez/ngx-online-status) ![https://www.paypal.me/vadimdez](https://img.shields.io/badge/paypal-donate-yellow.svg)
 
@@ -11,6 +12,7 @@ Angular 5+ Module to track online and offline state
 </p>
 
 ### Demo
+
 [https://vadimdez.github.io/ngx-online-status/](https://vadimdez.github.io/ngx-online-status/)
 
 or stackblitz code/demo
@@ -46,10 +48,10 @@ import { OnlineStatusModule } from 'ngx-online-status';
 2. Inject `OnlineStatusService` and use it:
 
 ```typescript
-import { OnlineStatusService, OnlineStatusType } from 'ngx-online-status';
+import { OnlineStatusService, OnlineStatusType } from "ngx-online-status";
 
 export class AppComponent {
-  status: OnlineStatusType;
+  status: OnlineStatusType = this.onlineStatusService.getStatus(); // get initial status
 
   constructor(private onlineStatusService: OnlineStatusService) {
     this.onlineStatusService.status.subscribe((status: OnlineStatusType) => {
@@ -58,13 +60,13 @@ export class AppComponent {
     });
   }
 }
-``` 
+```
 
 ##### OnlineStatusType
 
-```OnlineStatusType.OFFLINE``` equals to `0`
+`OnlineStatusType.OFFLINE` equals to `0`
 
-```OnlineStatusType.ONLINE``` equals to `1`
+`OnlineStatusType.ONLINE` equals to `1`
 
 ## License
 

@@ -19,6 +19,19 @@ export class OnlineStatusService implements OnDestroy {
     window.removeEventListener(OnlineStatusService.EVENT_TYPE_OFFLINE, this.onOffline);
   }
 
+  /**
+   * getStatus - get online status
+   * 
+   * @returns OnlineStatusType
+   */
+  public getStatus(): OnlineStatusType {
+    if (navigator.onLine) {
+      return OnlineStatusType.ONLINE;
+    }
+    
+    return OnlineStatusType.OFFLINE;
+  }
+
   private bind() {
     this.onOnline = this.onOnline.bind(this);
     this.onOffline = this.onOffline.bind(this);
