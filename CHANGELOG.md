@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.0
+
+- [[#40](https://github.com/VadimDez/ngx-online-status/issues/40)] - Update angular to the latest version (13)
+- [[#41](https://github.com/VadimDez/ngx-online-status/pull/41)] - Upgrade project to angular 13
+
 ## 1.0.1
 
-* [[#5](https://github.com/VadimDez/ngx-online-status/issues/5)] - Upgrade to Angular 8
+- [[#5](https://github.com/VadimDez/ngx-online-status/issues/5)] - Upgrade to Angular 8
